@@ -1,22 +1,36 @@
 {
   "main": {
-    "id": "e589634251a697b9",
+    "id": "2c39e954b451f4f0",
     "type": "split",
     "children": [
       {
-        "id": "8fad3074f9ac783a",
+        "id": "d8bbefb212bd8a92",
         "type": "tabs",
         "children": [
           {
-            "id": "160dd9841cf61b77",
+            "id": "6655f467acf8e71e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "046da75253e95740",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "299adb59ea7fad0d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "15c798c95c979ec2",
+    "id": "5819751a34c658cf",
     "type": "split",
     "children": [
       {
-        "id": "a77058bfd42db764",
+        "id": "64a76bb215235fc6",
         "type": "tabs",
         "children": [
           {
-            "id": "82266356d9de9210",
+            "id": "4fd3a19794294807",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +57,7 @@
             }
           },
           {
-            "id": "b2695c53aacfeba5",
+            "id": "208a5e0201bda6e7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +72,7 @@
             }
           },
           {
-            "id": "b26bbca749ac005f",
+            "id": "51f97dd051938013",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "33da8fbd7e17a24a",
+    "id": "7761a1067780a4e2",
     "type": "split",
     "children": [
       {
-        "id": "397a99981f4f8080",
+        "id": "4a1eff08b24f5f54",
         "type": "tabs",
         "children": [
           {
-            "id": "01be139affb05ba4",
+            "id": "dc39f53b39d02442",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +111,19 @@
             }
           },
           {
-            "id": "53d7281614d9d24c",
+            "id": "12fe41b8814ffd05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "55574331bad66d08",
+            "id": "65d5f6a6926210eb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +134,12 @@
             }
           },
           {
-            "id": "e2cfa442815dad47",
+            "id": "1422ea2e59cbea90",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -143,9 +157,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "160dd9841cf61b77",
-  "lastOpenFiles": []
+  "active": "4fd3a19794294807",
+  "lastOpenFiles": [
+    "README.md",
+    "docs/tags.md",
+    "docs/Score1.png",
+    "docs/Page5.md",
+    "docs/Page4.md",
+    "docs/Page3pdf.pdf",
+    "docs/Page3.md",
+    "docs/Page2.md",
+    "docs/Page1.md",
+    "docs/index.md",
+    "docs/IMG-20230404-WA0007.jpg",
+    "docs/web_wasm/canvaskit/chromium/canvaskit.wasm",
+    "docs/web_wasm/canvaskit/chromium/canvaskit.js",
+    "docs/web_wasm/assets/fonts/MaterialIcons-Regular.otf",
+    "docs/web_wasm/assets/shaders/ink_sparkle.frag",
+    "docs/web_wasm/icons/Icon-maskable-512.png",
+    "docs/web_wasm/icons/Icon-maskable-192.png",
+    "docs/web_wasm/icons/Icon-512.png",
+    "docs/web_wasm/icons/Icon-192.png",
+    "docs/web_wasm/canvaskit/skwasm.worker.js",
+    "docs/web_wasm/canvaskit/skwasm.wasm",
+    "docs/web_wasm/canvaskit/skwasm.js",
+    "docs/web_wasm/canvaskit/chromium",
+    "docs/web_wasm/canvaskit/canvaskit.wasm",
+    "docs/web_wasm/favicon.png",
+    "docs/particle_field/assets/assets/particle-21x23.png",
+    "docs/particle_field/icons/Icon-maskable-512.png",
+    "docs/particle_field/icons/Icon-maskable-192.png",
+    "Welcome.md"
+  ]
 }
