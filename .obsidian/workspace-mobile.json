@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a75a8ec4a4178946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hellohello.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/index.md",
+            "file": "hellohello.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/index.md",
+            "file": "hellohello.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/index.md"
+            "file": "hellohello.md"
           }
         }
       }
@@ -131,8 +144,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a91c6b9e83abd66",
+  "active": "a75a8ec4a4178946",
   "lastOpenFiles": [
+    "docs/index.md",
+    "hellohello.md",
     "new t810.md"
   ]
 }
