@@ -4,11 +4,13 @@
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "native",
-    "iconColor": "#ffff00",
+    "iconColor": "#ffffff",
     "recentlyUsedIcons": [
-      "🌅",
-      "🕸",
-      "CoSun"
+      "🛬",
+      "🎼",
+      "📓",
+      "IbGithub",
+      "IbHotBrew"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,6 +31,14 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
-  "hellohello.md": "CoSun",
-  "docs/index.md": "🕸"
+  "docs/index.md": "🕸",
+  "test/hello.md": "🌕",
+  "test": {
+    "iconName": "IbHotBrew",
+    "iconColor": "#ffffff"
+  },
+  "docs": "IbGithub",
+  "ReadItLater Inbox": "📓",
+  "musicabc.md": "🎼",
+  "Leaflet.md": "🛬"
 }

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"daa2120177b778c0","type":"file","file":"Leaflet.md","x":200,"y":-99,"width":760,"height":1019},
+		{"id":"6b9a6de06429e19b","x":320,"y":-620,"width":400,"height":400,"type":"file","file":"test/hello.md"}
+	],
+	"edges":[
+		{"id":"922dd5381b005403","fromNode":"daa2120177b778c0","fromSide":"top","toNode":"6b9a6de06429e19b","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,36 @@
+{
+  "callouts": {
+    "custom": [
+      "mycallout"
+    ],
+    "settings": {
+      "mycallout": [
+        {
+          "changes": {
+            "icon": "lucide-activity"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "108,153,187"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

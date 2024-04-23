@@ -1,0 +1,593 @@
+{
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "locked": false,
+      "lastAccessed": 1713873086565,
+      "markers": [
+        {
+          "id": "ID_6b7b8aa979da",
+          "type": "beer",
+          "loc": [
+            -3.333251953125,
+            7.81640625
+          ],
+          "link": "hello",
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5b79ba386948",
+          "type": "default",
+          "loc": [
+            -3.817626953125,
+            6.75390625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c9f89a0849ca",
+          "type": "beer",
+          "loc": [
+            -2.4189453125,
+            4.3203125
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baf82acb5a3b",
+          "type": "beer",
+          "loc": [
+            -4.2626953125,
+            3.7109375
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b878e9a89bbb",
+          "type": "beer",
+          "loc": [
+            -0.8408203125,
+            5.5390625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4929fb88197b",
+          "type": "beer",
+          "loc": [
+            -2.4658203125,
+            2.4140625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_09da18b94b3a",
+          "type": "beer",
+          "loc": [
+            -2.2158203125,
+            8.8984375
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_693a1b18e97a",
+          "type": "beer",
+          "loc": [
+            -5.0595703125,
+            5.6640625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5a68facae929",
+          "type": "beer",
+          "loc": [
+            -3.8179931640625,
+            6.8681640625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8483b7a9a0b",
+          "type": "beer",
+          "loc": [
+            -3.8394775390625,
+            6.8701171875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8b5a4be8cb2b",
+          "type": "beer",
+          "loc": [
+            -3.8590087890625,
+            6.8251953125
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5bd80a88f88b",
+          "type": "wine",
+          "loc": [
+            -2.9892578125,
+            5.6484375
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b49baf8cbd9",
+          "type": "default",
+          "loc": [
+            -2.8486328125,
+            5.2890625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_e83a080b4a89",
+          "type": "beer",
+          "loc": [
+            -3.5517578125,
+            5.4921875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa598a09f8d9",
+          "type": "wine",
+          "loc": [
+            -2.4580078125,
+            7.1171875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d98bcb1958db",
+          "type": "wine",
+          "loc": [
+            -0.6455078125,
+            3.6171875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_aa9babe83ab8",
+          "type": "wine",
+          "loc": [
+            -0.9580078125,
+            7.7265625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_6b38db6a49ca",
+          "type": "default",
+          "loc": [
+            -4.5078125,
+            6.6015625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5868055555555556,
+            0.6010416666666667
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_da289be8198a",
+          "type": "default",
+          "loc": [
+            -4.48483145236969,
+            5.640323877334595
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5013621224297418,
+            0.5979775269826253
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8b8b989f82a",
+          "type": "beer",
+          "loc": [
+            -4.95166015625,
+            4.86328125
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_687af8dad8fb",
+          "type": "beer",
+          "loc": [
+            -8.3720703125,
+            15.21875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "rectangle",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -2.56243896484375,
+              "lng": 6.0859375,
+              "id": "ID_483b9b4a09fa",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -2.56243896484375,
+              "lng": 6.8828125,
+              "id": "ID_eafbbb6afb9b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -2.56243896484375,
+              "lng": 6.8828125,
+              "id": "ID_eafbbb6afb9b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -2.56243896484375,
+              "lng": 6.0859375,
+              "id": "ID_483b9b4a09fa",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "polyline",
+          "color": "#00ff00",
+          "vertices": [
+            {
+              "lat": -4.12493896484375,
+              "lng": 5.6328125,
+              "id": "ID_c9f8fbea581a",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -4.12493896484375,
+              "lng": 6.4140625,
+              "id": "ID_e82a6b69a9b9",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -4.53118896484375,
+              "lng": 6.5234375,
+              "id": "ID_2a383b3a4839",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -4.49212646484375,
+              "lng": 5.609375,
+              "id": "ID_69a9dbc9e87b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -4.01556396484375,
+              "lng": 5.6796875,
+              "id": "ID_597a49a8bbd8",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polygon",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -2.71087646484375,
+              "lng": 4.0078125,
+              "id": "ID_d86998896abb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.49212646484375,
+              "lng": 4.5234375,
+              "id": "ID_fb28bb7b6bb8",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -3.24993896484375,
+              "lng": 5.2578125,
+              "id": "ID_2a6af93bc818",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ]
+        }
+      ],
+      "files": [
+        "Leaflet.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#00ff00",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "beer",
+      "iconName": "beer",
+      "color": "#ffff00",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "wine",
+      "iconName": "wine-glass-alt",
+      "color": "#0000ff",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": false,
+    "defaultZoom": 5,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "[[Image.jpg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Image.jpg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [
+      "default, -1.983334, 5.983330, [[Note]]"
+    ],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [
+      "blue",
+      [
+        -1,
+        4
+      ],
+      "10 mi",
+      "This is my overlay!"
+    ],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "leaflet-map",
+    "lat": 50,
+    "long": 50,
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

@@ -7,7 +7,7 @@
   "fileSearchHotkey": "o",
   "tagSearchHotkey": "t",
   "suggestionLimit": 50,
-  "recentAbovePinned": false,
+  "recentAbovePinned": true,
   "hyperKeyOverride": false,
   "displayOnlyNotesNames": false,
   "hideMdExtension": false,
