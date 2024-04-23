@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4195e47e05c40e78",
+        "id": "c570a30b58e85fe7",
         "type": "split",
         "children": [
           {
@@ -14,13 +14,15 @@
               {
                 "id": "160dd9841cf61b77",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "test/Vi_shortcuts.md",
-                    "mode": "preview",
+                    "file": "test/pushme.md",
+                    "mode": "source",
                     "source": true
-                  }
+                  },
+                  "pinned": true
                 }
               },
               {
@@ -54,11 +56,11 @@
             ]
           },
           {
-            "id": "7b99e6f02b72b65b",
+            "id": "b79d3af402380275",
             "type": "tabs",
             "children": [
               {
-                "id": "96c2cbf814f5674c",
+                "id": "6c973b6dc16b8cd9",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -87,7 +89,7 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "sh-5.2$ ",
+                        "data": "sh-5.2$ ./pushme\r\nsh: ./pushme: Datei oder Verzeichnis nicht gefunden\r\nsh-5.2$ ls\r\n docs\u001b[11C  ImageFile.jpg   Leaflet.md\u001b[4C mymap.json\u001b[5C      README.md   test\r\n ImageFile2.jpg   Image.jpg\u001b[5C  musicabc1.md\u001b[2C'ReadItLater Inbox'   redme\u001b[5C  Welcome.md\r\nsh-5.2$ cd test\r\nsh-5.2$ ls\r\n hello.md  'new t810.md'   pushme.md   Vi_shortcuts.md\r\nsh-5.2$ ./pushme.md\r\nEverything up-to-date\r\nsh-5.2$ ./pushme.md",
                         "rows": 16
                       }
                     }
@@ -164,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/Vi_shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/Vi_shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,9 +203,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "test/Vi_shortcuts.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -229,16 +227,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "82266356d9de9210",
+  "active": "6c973b6dc16b8cd9",
   "lastOpenFiles": [
-    "Leaflet.md",
+    "test/pushme.md",
+    "test/hello.md",
     "test/Vi_shortcuts.md",
+    "test/new t810.md",
+    "Leaflet.md",
     "ReadItLater Inbox",
     "musicabc1.md",
     "README.md",
-    "test/hello.md",
     "docs/index.md",
-    "test/new t810.md",
     "test",
     "redme",
     "mymap.json",
