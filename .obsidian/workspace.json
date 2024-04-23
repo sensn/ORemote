@@ -94,9 +94,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "84b00dfcb42fb930",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test/Vi_shortcuts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,6 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "test/Vi_shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "test/Vi_shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "test/Vi_shortcuts.md"
+              }
             }
           }
         ]
@@ -223,7 +239,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "959b11764475e1ed",
+  "active": "84b00dfcb42fb930",
   "lastOpenFiles": [
     "test/pushme.md",
     "test/pullme.md",
