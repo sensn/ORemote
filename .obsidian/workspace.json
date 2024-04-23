@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Leaflet.md",
+                    "file": "test/Vi_shortcuts.md",
                     "mode": "preview",
                     "source": true
                   }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leaflet.md",
+                "file": "test/Vi_shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leaflet.md",
+                "file": "test/Vi_shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leaflet.md"
+                "file": "test/Vi_shortcuts.md"
               }
             }
           }
@@ -231,10 +231,10 @@
   },
   "active": "82266356d9de9210",
   "lastOpenFiles": [
-    "ReadItLater Inbox/Note 2024-04-23 16-59-02.md",
+    "Leaflet.md",
+    "test/Vi_shortcuts.md",
     "ReadItLater Inbox",
     "musicabc1.md",
-    "Leaflet.md",
     "README.md",
     "test/hello.md",
     "docs/index.md",

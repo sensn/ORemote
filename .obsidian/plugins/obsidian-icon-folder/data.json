@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
+      "🗂",
       "CoLeaf",
       "🛬",
       "🎼",
-      "📓",
-      "IbGithub"
+      "📓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "docs": "IbGithub",
   "ReadItLater Inbox": "📓",
   "Leaflet.md": "🛬",
-  "test/hello.md": "CoLeaf"
+  "test/hello.md": "CoLeaf",
+  "test/Vi_shortcuts.md": "🗂"
 }
