@@ -33,6 +33,7 @@
     "docs": "HIGHLIGHT",
     "test": "DEFAULT",
     "Leaflet.md": "HIGHLIGHT",
-    "musicabc1.md": "HIGHLIGHT"
+    "musicabc1.md": "HIGHLIGHT",
+    "README.md": "HIGHLIGHT"
   }
 }
