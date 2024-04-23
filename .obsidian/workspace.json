@@ -25,8 +25,21 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "ea51723d39f98cdc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "test/pullme.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "07b4ad6b1c7a0076",
@@ -61,7 +74,11 @@
                         "type": "integrated",
                         "useWin32Conhost": true
                       },
-                      "serial": null
+                      "serial": {
+                        "columns": 108,
+                        "data": "sh-5.2$ git rebase\r\nFehler: Rebase nicht möglich: Sie haben Änderungen, die nicht zum Commit vorgemerkt sind.\r\nFehler: Bitte committen Sie die Änderungen oder benutzen Sie \"stash\".\r\nsh-5.2$ git stash -a\r\nArbeitsverzeichnis und Index-Status WIP on main: ca97f70 pushme Di 23 Apr 2024 23:36:54 CEST gespeichert.\r\nsh-5.2$ git push\r\nTo github.com:sensn/ORemote.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31mFehler: Fehler beim Versenden einiger Referenzen nach 'github.com:sensn/ORemote.git'\r\n\u001b[33mHinweis: Aktualisierungen wurden zurückgewiesen, weil die Spitze Ihres aktuellen\r\nHinweis: Branches hinter seinem externen Gegenstück zurückgefallen ist. Wenn Sie\r\nHinweis: die externen Änderungen integrieren wollen, verwenden Sie 'git pull' bevor\r\nHinweis: Sie erneut push ausführen.\r\nHinweis: Siehe auch den Abschnitt 'Note about fast-forwards' in 'git push --help' für\r\nHinweis: weitere Informationen.\r\n\u001b[0msh-5.2$ git pull\r\n\u001b[33mHinweis: Abweichende Branches können nicht vorgespult werden, benutzen Sie stattdessen:\r\nHinweis: \r\nHinweis: \u001b[7Cgit merge --no-ff\r\nHinweis: \r\nHinweis: oder:\r\nHinweis: \r\nHinweis: \u001b[7Cgit rebase\r\nHinweis: \r\nHinweis: Disable this message with \"git config advice.diverging false\"\r\n\u001b[0mSchwerwiegend: Vorspulen nicht möglich, breche ab.\r\nsh-5.2$ git rebase\r\nFehler: Rebase nicht möglich: Sie haben Änderungen, die nicht zum Commit vorgemerkt sind.\r\nFehler: Bitte committen Sie die Änderungen oder benutzen Sie \"stash\".\r\nsh-5.2$ git commit -a -m \"h\"",
+                        "rows": 12
+                      }
                     }
                   },
                   "pinned": true
@@ -90,7 +107,7 @@
                       },
                       "serial": {
                         "columns": 108,
-                        "data": "\u001b[37mPlugin Mononote v1.1.1 initialized\r\n\u001b[33mUnable to fetch Obsidian stylesheet. [Error: [obsidian-extra]: Obsidian 1.5.12 has not been tested with this function]\r\n\u001b[37mOmnisearch - 16 files total\r\nOmnisearch - Cache is enabled\u001b[1B\u001b[29D\u001b[0m",
+                        "data": "\u001b[37mPlugin Mononote v1.1.1 initialized\r\n\u001b[33mUnable to fetch Obsidian stylesheet. [Error: [obsidian-extra]: Obsidian 1.5.12 has not been tested with this function]\r\n\u001b[37mOmnisearch - 16 files total\r\nOmnisearch - Cache is enabled\r\nloaded icon pack remix-icons (2860)\r\n\u001b[31mUncaught TypeError: Cannot read properties of null (reading 'path') { isTrusted: \u001b[36m[Getter]\u001b[31m }\u001b[1B\u001b[91D\u001b[0m",
                         "rows": 12
                       }
                     }
@@ -98,8 +115,7 @@
                   "pinned": true
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -168,7 +184,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "musicabc1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +200,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "musicabc1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,9 +221,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "musicabc1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -233,12 +245,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8cf592d811bb69f3",
+  "active": "36ec591f4cbf47e7",
   "lastOpenFiles": [
+    "test/pullme.md",
     "test/pushme.md",
     "musicabc1.md",
     "Leaflet.md",
-    "test/pullme.md",
     "test/Vi_shortcuts.md",
     "README.md",
     "test/hello.md",
