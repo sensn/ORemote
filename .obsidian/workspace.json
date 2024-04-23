@@ -4,98 +4,105 @@
     "type": "split",
     "children": [
       {
-        "id": "8fad3074f9ac783a",
-        "type": "tabs",
+        "id": "88d9c278930a4aed",
+        "type": "split",
         "children": [
           {
-            "id": "160dd9841cf61b77",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test/pushme.md",
-                "mode": "source",
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6c973b6dc16b8cd9",
-            "type": "leaf",
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/sh",
-                    "name": "",
-                    "platforms": {
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
+            "id": "8fad3074f9ac783a",
+            "type": "tabs",
+            "dimension": 57.421875,
+            "children": [
+              {
+                "id": "8cf592d811bb69f3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "musicabc1.md",
+                    "mode": "preview",
+                    "source": true
                   },
-                  "serial": {
-                    "columns": 108,
-                    "data": "sh-5.2$ ./pushme\r\nsh: ./pushme: Datei oder Verzeichnis nicht gefunden\r\nsh-5.2$ ls\r\n docs\u001b[11C  ImageFile.jpg   Leaflet.md\u001b[4C mymap.json\u001b[5C      README.md   test\r\n ImageFile2.jpg   Image.jpg\u001b[5C  musicabc1.md\u001b[2C'ReadItLater Inbox'   redme\u001b[5C  Welcome.md\r\nsh-5.2$ cd test\r\nsh-5.2$ ls\r\n hello.md  'new t810.md'   pushme.md   Vi_shortcuts.md\r\nsh-5.2$ ./pushme.md\r\nEverything up-to-date\r\nsh-5.2$ ./pushme.md\r\n[main 573da3a] pushme\r\n 4 files changed, 21 insertions(+), 18 deletions(-)\r\n create mode 100755 test/pushme.md\r\nObjekte aufzählen: 18, fertig.\r\nZähle Objekte: 100% (18/18), fertig.\r\nDelta-Kompression verwendet bis zu 2 Threads.\r\nKomprimiere Objekte: 100% (9/9), fertig.\r\nSchreibe Objekte: 100% (10/10), 1.38 KiB | 1.38 MiB/s, fertig.\r\nGesamt 10 (Delta 7), Wiederverwendet 0 (Delta 0), Paket wiederverwendet 0 (von 0)\r\nremote: Resolving deltas: 100% (7/7), completed with 7 local objects.\r\nTo github.com:sensn/ORemote.git\r\n   9b64e50..573da3a  main -> main\r\nsh-5.2$ ./pullme.md\r\nsh: ./pullme.md: Keine Berechtigung\r\nsh-5.2$ ./pullme.md\r\nBereits aktuell.\r\nsh-5.2$ ",
-                    "rows": 38
-                  }
+                  "pinned": true
                 }
               }
-            }
+            ]
           },
           {
-            "id": "959b11764475e1ed",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "executable": "/bin/sh",
-                    "name": "",
-                    "platforms": {
-                      "linux": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": true,
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {},
-                    "type": "integrated",
-                    "useWin32Conhost": true
+            "id": "07b4ad6b1c7a0076",
+            "type": "tabs",
+            "dimension": 42.578125,
+            "children": [
+              {
+                "id": "36ec591f4cbf47e7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/sh",
+                        "name": "",
+                        "platforms": {
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {},
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
                   },
-                  "serial": {
-                    "columns": 108,
-                    "data": "sh-5.2$ git merge --no-ff\r\nHinweis: Warte auf das Schließen der Datei durch Ihren Editor... Fehler: cannot run vi: Datei oder Verzeichnis nicht gefunden\r\nFehler: unable to start editor 'vi'\r\nMerge wurde nicht committet; benutzen Sie 'git commit', um den Merge abzuschließen.\r\nsh-5.2$ git commit\r\nHinweis: Warte auf das Schließen der Datei durch Ihren Editor... Fehler: cannot run vi: Datei oder Verzeichnis nicht gefunden\r\nFehler: unable to start editor 'vi'\r\nBitte liefern Sie eine Beschreibung entweder mit der Option -m oder -F.\r\nsh-5.2$ git commit -m \"MM\"\r\n[main 42ffe54] MM\r\nsh-5.2$ git pull\r\nBereits aktuell.\r\nsh-5.2$ ",
-                    "rows": 38
-                  }
+                  "pinned": true
                 }
               },
-              "pinned": true
-            }
+              {
+                "id": "e85029bb673a9c6e",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
+                      "focus": false,
+                      "profile": {
+                        "name": "",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {},
+                        "type": "developerConsole"
+                      },
+                      "serial": {
+                        "columns": 108,
+                        "data": "\u001b[37mPlugin Mononote v1.1.1 initialized\r\n\u001b[33mUnable to fetch Obsidian stylesheet. [Error: [obsidian-extra]: Obsidian 1.5.12 has not been tested with this function]\r\n\u001b[37mOmnisearch - 16 files total\r\nOmnisearch - Cache is enabled\u001b[1B\u001b[29D\u001b[0m",
+                        "rows": 12
+                      }
+                    }
+                  },
+                  "pinned": true
+                }
+              }
+            ],
+            "currentTab": 1
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -161,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/pushme.md",
+                "file": "musicabc1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/pushme.md",
+                "file": "musicabc1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test/pushme.md"
+                "file": "musicabc1.md"
               }
             }
           }
@@ -226,14 +233,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "160dd9841cf61b77",
+  "active": "8cf592d811bb69f3",
   "lastOpenFiles": [
-    "test/pullme.md",
     "test/pushme.md",
-    "test/Vi_shortcuts.md",
-    "README.md",
     "musicabc1.md",
     "Leaflet.md",
+    "test/pullme.md",
+    "test/Vi_shortcuts.md",
+    "README.md",
     "test/hello.md",
     "test/new t810.md",
     "ReadItLater Inbox",

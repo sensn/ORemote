@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
+      "RiLeafFill",
+      "RiCupLine",
       "RiGitRepositoryCommitsLine",
       "RiGitPullRequestLine",
-      "RiMusic2Line",
-      "RiBookReadFill",
-      "RiLeafFill"
+      "RiMusic2Line"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,14 +32,11 @@
     "debugMode": false
   },
   "docs/index.md": "🕸",
-  "test": {
-    "iconName": "IbHotBrew",
-    "iconColor": "#ffffff"
-  },
+  "test": "RiCupLine",
   "docs": "IbGithub",
   "ReadItLater Inbox": "RiBookReadFill",
   "Leaflet.md": "RiLeafFill",
-  "test/hello.md": "CoLeaf",
+  "test/hello.md": "RiLeafFill",
   "test/Vi_shortcuts.md": "🗂",
   "musicabc1.md": "RiMusic2Line",
   "test/pullme.md": "RiGitPullRequestLine",

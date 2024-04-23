@@ -3,7 +3,7 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1713892723441,
+      "lastAccessed": 1713906440929,
       "markers": [
         {
           "id": "ID_6b7b8aa979da",
@@ -282,15 +282,15 @@
           "id": "ID_6b38db6a49ca",
           "type": "default",
           "loc": [
-            -4.5078125,
-            6.6015625
+            -4.984375,
+            7.421875
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": [
-            0.5868055555555556,
-            0.6010416666666667
+            0.6597222222222222,
+            0.6645833333333333
           ],
           "description": null,
           "minZoom": null,
@@ -301,15 +301,15 @@
           "id": "ID_da289be8198a",
           "type": "default",
           "loc": [
-            -4.48483145236969,
-            5.640323877334595
+            -4.234375,
+            7.53125
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": [
-            0.5013621224297418,
-            0.5979775269826253
+            0.6694444444444444,
+            0.5645833333333333
           ],
           "description": null,
           "minZoom": null,
@@ -384,13 +384,16 @@
           "id": "ID_08896988fad9",
           "type": "beer",
           "loc": [
-            -3.3333740234375,
-            5.470703125
+            -3.703125,
+            4.1875
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.37222222222222223,
+            0.49375
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -407,6 +410,25 @@
           "mutable": true,
           "command": false,
           "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_c938ab6bbae9",
+          "type": "beer",
+          "loc": [
+            -3.4375,
+            3
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.26666666666666666,
+            0.4583333333333333
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -474,8 +496,8 @@
               }
             },
             {
-              "lat": -4.53118896484375,
-              "lng": 6.5234375,
+              "lat": -1.984375,
+              "lng": 3.84375,
               "id": "ID_2a383b3a4839",
               "targets": {
                 "vertexIds": []
@@ -506,24 +528,24 @@
           "color": "#3388FF",
           "vertices": [
             {
-              "lat": -2.71087646484375,
-              "lng": 4.0078125,
+              "lat": -0.796875,
+              "lng": 4.734375,
               "id": "ID_d86998896abb",
               "targets": {
                 "vertexIds": []
               }
             },
             {
-              "lat": -3.49212646484375,
-              "lng": 4.5234375,
+              "lat": -1.390625,
+              "lng": 2.296875,
               "id": "ID_fb28bb7b6bb8",
               "targets": {
                 "vertexIds": []
               }
             },
             {
-              "lat": -3.24993896484375,
-              "lng": 5.2578125,
+              "lat": -4.71875,
+              "lng": 1.71875,
               "id": "ID_2a6af93bc818",
               "targets": {
                 "vertexIds": []
