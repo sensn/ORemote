@@ -16,5 +16,6 @@
   "remember-cursor-position",
   "obsidian-leaflet-plugin",
   "music-code-blocks",
-  "terminal"
+  "terminal",
+  "obsidian-shellcommands"
 ]

@@ -5,9 +5,9 @@ image: [[Image.jpg]]
 height: 500px
 lat: 50
 long: 50
-minZoom: 1
+minZoom: 6
 maxZoom: 10
-defaultZoom: 5
+defaultZoom: 6
 unit: meters
 scale: 1
 marker: default, -1.983334, 5.983330, [[Note]]
