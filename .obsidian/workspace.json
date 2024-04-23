@@ -56,8 +56,47 @@
                 }
               }
             }
+          },
+          {
+            "id": "959b11764475e1ed",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
+                  "focus": false,
+                  "profile": {
+                    "args": [],
+                    "executable": "/bin/sh",
+                    "name": "",
+                    "platforms": {
+                      "linux": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": true,
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {},
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": {
+                    "columns": 108,
+                    "data": "sh-5.2$ git merge --no-ff\r\nHinweis: Warte auf das Schließen der Datei durch Ihren Editor... Fehler: cannot run vi: Datei oder Verzeichnis nicht gefunden\r\nFehler: unable to start editor 'vi'\r\nMerge wurde nicht committet; benutzen Sie 'git commit', um den Merge abzuschließen.\r\nsh-5.2$ git commit\r\nHinweis: Warte auf das Schließen der Datei durch Ihren Editor... Fehler: cannot run vi: Datei oder Verzeichnis nicht gefunden\r\nFehler: unable to start editor 'vi'\r\nBitte liefern Sie eine Beschreibung entweder mit der Option -m oder -F.\r\nsh-5.2$ git commit -m \"MM\"\r\n[main 42ffe54] MM\r\nsh-5.2$ git pull\r\nBereits aktuell.\r\nsh-5.2$ ",
+                    "rows": 38
+                  }
+                }
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/pushme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/pushme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +199,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "test/pushme.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -188,10 +223,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "160dd9841cf61b77",
+  "active": "959b11764475e1ed",
   "lastOpenFiles": [
-    "test/pullme.md",
     "test/pushme.md",
+    "test/pullme.md",
     "README.md",
     "musicabc1.md",
     "Leaflet.md",
