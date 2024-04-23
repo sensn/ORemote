@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
+      "RiGitRepositoryCommitsLine",
+      "RiGitPullRequestLine",
       "RiMusic2Line",
       "RiBookReadFill",
-      "RiLeafFill",
-      "🗂",
-      "CoLeaf"
+      "RiLeafFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,7 @@
   "Leaflet.md": "RiLeafFill",
   "test/hello.md": "CoLeaf",
   "test/Vi_shortcuts.md": "🗂",
-  "musicabc1.md": "RiMusic2Line"
+  "musicabc1.md": "RiMusic2Line",
+  "test/pullme.md": "RiGitPullRequestLine",
+  "test/pushme.md": "RiGitRepositoryCommitsLine"
 }

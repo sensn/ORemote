@@ -1,3 +1,3 @@
 git add .
-git commit -a -m "pushme"
+git commit -a -m "pushmee"
 git push
