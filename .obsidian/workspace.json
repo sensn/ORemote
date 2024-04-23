@@ -94,21 +94,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "84b00dfcb42fb930",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test/Vi_shortcuts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/Vi_shortcuts.md",
+                "file": "test/pushme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/Vi_shortcuts.md",
+                "file": "test/pushme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test/Vi_shortcuts.md"
+                "file": "test/pushme.md"
               }
             }
           }
@@ -239,16 +226,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "84b00dfcb42fb930",
+  "active": "160dd9841cf61b77",
   "lastOpenFiles": [
-    "test/pushme.md",
     "test/pullme.md",
+    "test/pushme.md",
+    "test/Vi_shortcuts.md",
     "README.md",
     "musicabc1.md",
     "Leaflet.md",
     "test/hello.md",
     "test/new t810.md",
-    "test/Vi_shortcuts.md",
     "ReadItLater Inbox",
     "docs/index.md",
     "test",
