@@ -32,7 +32,7 @@
   "fileOverwrites": {
     "docs": "HIGHLIGHT",
     "test": "DEFAULT",
-    "musicabc.md": "HIGHLIGHT",
-    "Leaflet.md": "HIGHLIGHT"
+    "Leaflet.md": "HIGHLIGHT",
+    "musicabc1.md": "HIGHLIGHT"
   }
 }

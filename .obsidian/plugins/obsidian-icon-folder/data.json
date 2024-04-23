@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
-      "🛬",
-      "🎼",
-      "📓",
+      "IbHotBrew",
       "IbGithub",
-      "IbHotBrew"
+      "CoSun",
+      "🎵",
+      "OcBug16"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,13 +32,10 @@
     "debugMode": false
   },
   "docs/index.md": "🕸",
-  "test/hello.md": "🌕",
-  "test": {
-    "iconName": "IbHotBrew",
-    "iconColor": "#ffffff"
-  },
+  "test/hello.md": "CoSun",
+  "test": "IbHotBrew",
   "docs": "IbGithub",
   "ReadItLater Inbox": "📓",
-  "musicabc.md": "🎼",
-  "Leaflet.md": "🛬"
+  "Leaflet.md": "OcBug16",
+  "musicabc1.md": "🎵"
 }
