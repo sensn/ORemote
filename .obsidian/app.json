@@ -20,7 +20,8 @@
     "editor:redo",
     "editor:configure-toolbar",
     "obsidian-icon-folder:iconize:set-icon-for-file",
-    "editor:insert-callout"
+    "editor:insert-callout",
+    "editor:insert-codeblock"
   ],
   "promptDelete": false
 }
