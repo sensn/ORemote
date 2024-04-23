@@ -3,7 +3,7 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1713888574530,
+      "lastAccessed": 1713892723441,
       "markers": [
         {
           "id": "ID_6b7b8aa979da",
@@ -347,6 +347,70 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_3ad92a88596a",
+          "type": "beer",
+          "loc": [
+            -4.02099609375,
+            1.7421875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_ba6999195bd9",
+          "type": "beer",
+          "loc": [
+            -0.97412109375,
+            6.6640625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_08896988fad9",
+          "type": "beer",
+          "loc": [
+            -3.3333740234375,
+            5.470703125
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a7acbea994a",
+          "type": "beer",
+          "loc": [
+            -3.1536865234375,
+            5.537109375
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
@@ -486,10 +550,10 @@
   "markerIcons": [
     {
       "type": "beer",
-      "iconName": "beer",
-      "color": "#ffff00",
+      "iconName": "map-pin",
+      "color": "#006cd1",
       "alpha": 1,
-      "layer": true,
+      "layer": false,
       "transform": {
         "size": 6,
         "x": 0,
@@ -529,7 +593,7 @@
     "patch": 5
   },
   "warnedAboutMapMarker": false,
-  "copyOnClick": false,
+  "copyOnClick": true,
   "displayMarkerTooltips": "hover",
   "displayOverlayTooltips": true,
   "configDirectory": null,

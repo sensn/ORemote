@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#ffffff",
     "recentlyUsedIcons": [
+      "RiMusic2Line",
+      "RiBookReadFill",
+      "RiLeafFill",
       "🗂",
-      "CoLeaf",
-      "🛬",
-      "🎼",
-      "📓"
+      "CoLeaf"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,8 +37,9 @@
     "iconColor": "#ffffff"
   },
   "docs": "IbGithub",
-  "ReadItLater Inbox": "📓",
-  "Leaflet.md": "🛬",
+  "ReadItLater Inbox": "RiBookReadFill",
+  "Leaflet.md": "RiLeafFill",
   "test/hello.md": "CoLeaf",
-  "test/Vi_shortcuts.md": "🗂"
+  "test/Vi_shortcuts.md": "🗂",
+  "musicabc1.md": "RiMusic2Line"
 }

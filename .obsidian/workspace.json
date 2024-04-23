@@ -27,9 +27,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test/new t810.md",
-                "mode": "source",
-                "source": false
+                "file": "musicabc1.md",
+                "mode": "preview",
+                "source": true
               }
             }
           },
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "musicabc1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "musicabc1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "musicabc1.md"
+              }
             }
           }
         ]
@@ -197,17 +201,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "6c973b6dc16b8cd9",
+  "active": "d804bc12ad2e3357",
   "lastOpenFiles": [
-    "test/pushme.md",
-    "test/new t810.md",
-    "test/pullme.md",
+    "README.md",
+    "musicabc1.md",
     "Leaflet.md",
     "test/hello.md",
+    "test/new t810.md",
+    "test/pushme.md",
+    "test/pullme.md",
     "test/Vi_shortcuts.md",
     "ReadItLater Inbox",
-    "musicabc1.md",
-    "README.md",
     "docs/index.md",
     "test",
     "redme",

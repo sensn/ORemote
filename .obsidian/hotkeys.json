@@ -1,1 +1,18 @@
-{}
+{
+  "obsidian-shellcommands:shell-command-osrmw8ij1g": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-rqbi4di89q": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ]
+}
