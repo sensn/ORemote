@@ -32,9 +32,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbeae30de745cbb6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +108,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Leaflet.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +124,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Leaflet.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -128,9 +134,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Leaflet.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -149,8 +153,9 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "cdc71785c56d56b9",
+  "active": "bbeae30de745cbb6",
   "lastOpenFiles": [
+    "Leaflet.md",
     "test/hello.md",
     "create a link.md",
     "ImageFile.jpg",
@@ -159,7 +164,6 @@
     "musicabc.md",
     "2024-04-23.md",
     "canvas.canvas",
-    "Leaflet.md",
     "test/new t810.md",
     "ImageFile2.jpg",
     "ReadItLater Inbox",
