@@ -42,7 +42,6 @@ w:IM7 ii7 iii7 IVM7 V7 vi7 vii/o7 IM7
 w:i iio III iv V VI viio i
 [K:Eb]"seventh"[CEGB]"chords"[DFAc]| "in minor"[EGBd] [FAce]| [G=Bdf] [Aceg]| [=Bdfa] [cegb]|
 w:i7 ii/o7 IIIM7 iv7 V7 VIM7 viio7 i7]]
-```
 V:1
 %%MIDI channel 1
 %%MIDI program 13
@@ -53,3 +52,4 @@ d|efe edB|ege fdB|dec dAF|DFA def|
 [1efe edB|def ~g2a|bgb afa|gee e2:|
 [2edB def|gba ~g2e|fdB AGF|GEE E2||]
 ]
+```

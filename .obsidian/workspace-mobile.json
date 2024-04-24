@@ -4,93 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "3a9e11b3ff5293e5",
-        "type": "split",
+        "id": "cd806f96ed5b42bf",
+        "type": "tabs",
         "children": [
           {
-            "id": "cd806f96ed5b42bf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b06b8bbcc63aa15b",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "test/hello.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "pinned": true
-                }
+            "id": "b06b8bbcc63aa15b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test/hello.md",
+                "mode": "preview",
+                "source": true
               },
-              {
-                "id": "6acd68f70f38610c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "musicabc1.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "335d0175e821f3a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Leaflet.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
+              "pinned": true
+            }
           },
           {
-            "id": "154fc90fb1cdff86",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5c6224d657ffdb45",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": null,
-                      "focus": false,
-                      "profile": {
-                        "name": "",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "developerConsole"
-                      },
-                      "serial": {
-                        "columns": 109,
-                        "data": "\u001b[31mPlugin failure: music-code-blocks [SyntaxError: Invalid or unexpected token]\r\n\u001b[37mPlugin Mononote v1.1.1 initialized\r\n\u001b[33mUnable to fetch Obsidian stylesheet. [Error: [obsidian-extra]: Obsidian 1.5.12 has not been tested with this function]\r\n\u001b[37mOmnisearch - 16 files total\r\nOmnisearch - Cache is enabled\r\n\u001b[31m[Error: Directory does not exist]\r\n\u001b[37mloaded icon pack remix-icons (2860)\u001b[1B\u001b[35D\u001b[0m",
-                        "rows": 13
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
+            "id": "335d0175e821f3a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leaflet.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "04ff0a709b834945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "musicabc.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "musicabc1.md",
+            "file": "musicabc.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -173,7 +129,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "musicabc1.md",
+            "file": "musicabc.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -185,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "musicabc1.md"
+            "file": "musicabc.md"
           }
         }
       }
@@ -206,11 +162,11 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "6acd68f70f38610c",
+  "active": "04ff0a709b834945",
   "lastOpenFiles": [
+    "test/hello.md",
     "Leaflet.md",
     "musicabc1.md",
-    "test/hello.md",
     "test/pullme.md",
     "README.md",
     "test/pushme.md",
