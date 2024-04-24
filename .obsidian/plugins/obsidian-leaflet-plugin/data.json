@@ -3,14 +3,14 @@
     {
       "id": "leaflet-map",
       "locked": false,
-      "lastAccessed": 1713906440929,
+      "lastAccessed": 1713981352853,
       "markers": [
         {
           "id": "ID_6b7b8aa979da",
           "type": "beer",
           "loc": [
-            -3.333251953125,
-            7.81640625
+            -3.265625,
+            8.265625
           ],
           "link": "hello",
           "layer": "%5B%5BImage.jpg%5D%5D",
@@ -74,13 +74,17 @@
           "id": "ID_b878e9a89bbb",
           "type": "beer",
           "loc": [
-            -0.8408203125,
-            5.5390625
+            -0.84375,
+            5.546875
           ],
+          "link": "musicabc",
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.4930555555555556,
+            0.1125
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -122,13 +126,16 @@
           "id": "ID_693a1b18e97a",
           "type": "beer",
           "loc": [
-            -5.0595703125,
-            5.6640625
+            -6.3125,
+            5.03125
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.44722222222222224,
+            0.8416666666666667
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -234,13 +241,16 @@
           "id": "ID_fa598a09f8d9",
           "type": "wine",
           "loc": [
-            -2.4580078125,
-            7.1171875
+            -2.078125,
+            7.1875
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.6388888888888888,
+            0.27708333333333335
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -250,13 +260,16 @@
           "id": "ID_d98bcb1958db",
           "type": "wine",
           "loc": [
-            -0.6455078125,
-            3.6171875
+            -0.84375,
+            2.640625
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.23472222222222222,
+            0.1125
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -368,13 +381,16 @@
           "id": "ID_ba6999195bd9",
           "type": "beer",
           "loc": [
-            -0.97412109375,
-            6.6640625
+            -1.3125,
+            6.34375
           ],
           "layer": "%5B%5BImage.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            0.5638888888888889,
+            0.175
+          ],
           "description": null,
           "minZoom": null,
           "maxZoom": null,
@@ -429,6 +445,38 @@
             0.26666666666666666,
             0.4583333333333333
           ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_8a7808186afb",
+          "type": "wine",
+          "loc": [
+            -5.9644775390625,
+            2.34765625
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7adac95b5aab",
+          "type": "beer",
+          "loc": [
+            -5.4722900390625,
+            2.98046875
+          ],
+          "layer": "%5B%5BImage.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
           "description": null,
           "minZoom": null,
           "maxZoom": null,

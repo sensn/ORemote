@@ -85,8 +85,8 @@ var SYNTH_INIT_OPTIONS = {
     pan: [-0.25, 0.25],
     // Sound "fonts".
     // These could be distributed locally with the plugin, but fair warning, they're large (GBs for all notes, I think)
-    // soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/', // bright, crisp
-    soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/', // loud, deeper
+     soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/', // bright, crisp
+    //soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/', // loud, deeper
        //soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/', // muted, more mids?
        //soundFontUrl: 'https://gleitz.github.io/midi-js-soundfonts/FatBoy/',
 };
@@ -155,9 +155,27 @@ var TimingCallbacks = function(target, params) {
 			self.currentTime = timestamp - self.startTime;
 			self.currentTime += 16; // Add a little slop because this function isn't called exactly.
 			
-			while (self.noteTimings.length > self.currentEvent && self.noteTimings[self.currentEvent].milliseconds*0.33 < self.currentTime) {
+			while (self.noteTimings.length > self.currentEvent && self.noteTimings[self.currentEvent].milliseconds < self.currentTime) {
 				if (self.eventCallback && self.noteTimings[self.currentEvent].type === 'event') {
-	console.log ('event running ${self.mystepcounter}`); 
+				//console.log (`event running ${self.mystepcounter}`); 
+
+/*self.mystepcounter++;
+                                               
+                                                    if ((self.mystepcounter%2)== 0) {
+							self.startTime = self.startTime+self.millisecondsPerBeat1;
+												console.log ("even start", self.startTime);
+                                                  	console.log ("even", self.mystepcounter);
+//self.currentEvent++
+							}
+  						 if ((self.mystepcounter%2)== 1) {
+							self.startTime = self.startTime - self.millisecondsPerBeat*0.33;
+                                                  	console.log ("ooodd START", self.startTime );
+                                                  	console.log ("ooodd", self.mystepcounter);
+                                                         //await new Promise(r => setTimeout(r, 2000));
+							}
+
+*/
+
 					var thisStartTime = self.startTime; // the event callback can call seek and change the position from beneath us.
 					self.eventCallback(self.noteTimings[self.currentEvent]);
 					if (thisStartTime !== self.startTime) {
@@ -194,7 +212,7 @@ var TimingCallbacks = function(target, params) {
 
 						
 					requestAnimationFrame(self.doTiming);
-				console.log (`Summe ${self.mystepcounter}`); 
+			//	console.log (`Summe ${self.mystepcounter}`); 
 				}
 			}
 
@@ -297,18 +315,7 @@ var TimingCallbacks = function(target, params) {
 				return timestamp - self.startTime;
 			} else
 				self.currentBeat++;
-				self.mystepcounter++;
-                                               
-                                                    if ((self.mystepcounter%2)== 0) {
-							self.startTime = self.startTime+self.millisecondsPerBeat1;
-                                                  	console.log ("even", self.mystepcounter);
-self.currentEvent++
-							}
-  						 if ((self.mystepcounter%2)== 1) {
-							self.startTime = self.startTime + self.millisecondsPerBeat*0.33;
-                                                  	console.log ("ooodd", self.mystepcounter);
-                                                         //await new Promise(r => setTimeout(r, 2000));
-							}
+				
 		}
 		return null;
 	};
@@ -426,7 +433,7 @@ self.currentEvent++
 
 		var oldBeat = self.currentBeat;
 
- 						if ((self.mystepcounter%2)== 0) {
+ 						/*if ((self.mystepcounter%2)== 0) {
 							self.currentBeat = Math.floor(self.currentTime / self.millisecondsPerBeat);
 							self.millisecondsPerBeat = self.millisecondsPerBeat1;
                                                        // self.noteTimings[self.currentEvent].milliseconds =
@@ -437,7 +444,7 @@ self.currentEvent++
 							self.millisecondsPerBeat = self.millisecondsPerBeat + self.millisecondsPerBeat*0.33;
                                                   	console.log ("odd", self.mystepcounter);
                                                          //await new Promise(r => setTimeout(r, 2000));
-							}
+							}*/
 		//self.currentBeat = Math.floor(self.currentTime / self.millisecondsPerBeat);
 		
 
@@ -7175,12 +7182,13 @@ var flatten;
 	}
 
 	function preProcess(voices, options) {
+		var mystepcounter=0;
 		for (var i = 0; i < voices.length; i++) {
 			var voice = voices[i];
 			var ties = {};
 			var startingTempo = options.qpm;
 			var timeCounter = 0;
-			var tempoMultiplier = 1;
+			var tempoMultiplier = 1; //my
 			for (var j = 0; j < voice.length; j++) {
 				var element = voice[j];
 
@@ -7194,7 +7202,33 @@ var flatten;
 
 				// For convenience, put the current time in each event so that it doesn't have to be calculated in the complicated stuff that follows.
 				element.time = timeCounter;
-				var thisDuration = element.duration ? element.duration : 0;
+				
+				//mydur
+					mystepcounter++;
+					//console.log ("Good", mystepcounter);
+						var thisDuration = element.duration ? element.duration : 0;
+                                               
+                                                    if ((mystepcounter%2)== 0) {
+thisDuration = element.duration ? element.duration-(element.duration*0.22) : 0;
+
+							//self.startTime = self.startTime+self.millisecondsPerBeat1;
+												//console.log ("even start", self.startTime);
+                                                  //	console.log ("even", mystepcounter);
+
+							}  
+  						 if ((mystepcounter%2)== 1) {
+  						 	thisDuration = element.duration ? element.duration +(element.duration*0.22) : 0;
+  						 	//thisDuration = element.duration ? element.duration*0.33 : 0;
+							//self.startTime = self.startTime - self.millisecondsPerBeat*0.33;
+                                               //   	console.log ("ooodd START", self.startTime );
+                                                  //	console.log ("ood", mystepcounter);
+                                                         //await new Promise(r => setTimeout(r, 2000));
+							}
+
+
+
+
+			//	var thisDuration = element.duration ? element.duration/2 : 0;
 				timeCounter += Math.round(thisDuration*tempoMultiplier*1000000); // To compensate for JS rounding problems, do all intermediate calcs on integers.
 
 				// If there are pitches then put the duration in the pitch object and if there are ties then change the duration of the first note in the tie.
@@ -8855,10 +8889,19 @@ var Tune = function() {
 				var thisMeasure = elements[elem].measureNumber;
 				if (tempoDone !== thisMeasure && this.tempoLocations[thisMeasure]) {
 					bpm = this.tempoLocations[thisMeasure];
+					//	timeDivider = warp * this.getBeatLength() * bpm / 60;
+					console.log (" ele even start", self.startTime);
+//set t
+//self.mystepcounter++;
+                                               
+                                                  
+
+
 					timeDivider = warp * this.getBeatLength() * bpm / 60;
 					tempoDone = thisMeasure;
 				}
 				var element = elements[elem].elem;
+
 				var ret = this.addElementToEvents(eventHash, element, voiceTimeMilliseconds, elements[elem].top, elements[elem].height, elements[elem].line, elements[elem].measureNumber, timeDivider, isTiedState, nextIsBar);
 				isTiedState = ret.isTiedState;
 				nextIsBar = ret.nextIsBar;
@@ -8875,6 +8918,22 @@ var Tune = function() {
 					if (endRepeat) {
 						// Force the end of the previous note to the position of the measure - the cursor won't go past the end repeat
 						if (elem > 0) {
+
+  											if ((elem%2)== 0) {
+                                                    		timeDivider = (warp * this.getBeatLength() * bpm / 60) + (warp * this.getBeatLength() * bpm / 60)*0.33 ;
+							//					console.log (" ele even start", self.startTime);
+                                                  	console.log ("ele even", self.mystepcounter);
+//self.currentEvent++
+							}
+  												 if ((elem%2)== 1) {
+  						 		timeDivider = (warp * this.getBeatLength() * bpm / 60) ;
+							//self.startTime = self.startTime - self.millisecondsPerBeat*0.33;
+                                                  	console.log ("ele eoodd START", self.startTime );
+                                                  	console.log (" ele ooodd", self.mystepcounter);
+                                                         //await new Promise(r => setTimeout(r, 2000));
+							}
+
+	console.log ("element x", element.x );
 							eventHash[lastHash].endX = element.x;
 						}
 
@@ -8886,8 +8945,8 @@ var Tune = function() {
 							thisMeasure = elements[el2].measureNumber;
 							if (tempoDone !== thisMeasure && this.tempoLocations[thisMeasure]) {
 								bpm = this.tempoLocations[thisMeasure];
-								timeDivider = warp * this.getBeatLength() * bpm / 60;
-								tempoDone = thisMeasure;
+								//mytime
+								timeDivider = (warp * this.getBeatLength() * bpm / 60);								tempoDone = thisMeasure;
 							}
 							var element2 = elements[el2].elem;
 							ret = this.addElementToEvents(eventHash, element2, voiceTimeMilliseconds, elements[el2].top, elements[el2].height, elements[el2].line, elements[el2].measureNumber, timeDivider, isTiedState, nextIsBar);
@@ -8896,6 +8955,8 @@ var Tune = function() {
 							voiceTime += ret.duration;
 							lastVoiceTimeMilliseconds = voiceTimeMilliseconds;
 							voiceTimeMilliseconds = Math.round(voiceTime * 1000);
+							//console.log ("voiceTimeMilliseconds", ret.voiceTimeMilliseconds );
+                                                  //	console.log (" voiceTime", voiceTime);
 						}
 						if (eventHash["event" + lastVoiceTimeMilliseconds]) // This won't exist if it is the beginning of the next line. That's ok because we will just count the end of the last line as the end.
 							eventHash["event" + lastVoiceTimeMilliseconds].endX = elements[endingRepeatElem].elem.x;
@@ -8909,7 +8970,7 @@ var Tune = function() {
 				}
 			}
 			maxVoiceTimeMilliseconds = Math.max(maxVoiceTimeMilliseconds, voiceTimeMilliseconds);
-		}
+		eventHash}
 		// now we have all the events, but if there are multiple voices then there may be events out of order or duplicated, so normalize it.
 		timingEvents = makeSortedArray(eventHash);
 		addVerticalInfo(timingEvents);

@@ -9,7 +9,7 @@ minZoom: 6
 maxZoom: 10
 defaultZoom: 6
 unit: meters
-scale: 1
+scale: 0.5
 marker: default, -1.983334, 5.983330, [[Note]]
 darkMode: false
 overlay: [blue, [-1, 4], 10 mi , 'This is my overlay!']

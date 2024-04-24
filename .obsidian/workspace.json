@@ -4,121 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "88d9c278930a4aed",
-        "type": "split",
+        "id": "8fad3074f9ac783a",
+        "type": "tabs",
         "children": [
           {
-            "id": "8fad3074f9ac783a",
-            "type": "tabs",
-            "dimension": 57.421875,
-            "children": [
-              {
-                "id": "8cf592d811bb69f3",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "musicabc1.md",
-                    "mode": "preview",
-                    "source": true
-                  },
-                  "pinned": true
-                }
+            "id": "8cf592d811bb69f3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "musicabc.md",
+                "mode": "preview",
+                "source": true
               },
-              {
-                "id": "ea51723d39f98cdc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "test/pullme.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "07b4ad6b1c7a0076",
-            "type": "tabs",
-            "dimension": 42.578125,
-            "children": [
-              {
-                "id": "36ec591f4cbf47e7",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/sh",
-                        "name": "",
-                        "platforms": {
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 108,
-                        "data": "sh-5.2$ git rebase\r\nFehler: Rebase nicht möglich: Sie haben Änderungen, die nicht zum Commit vorgemerkt sind.\r\nFehler: Bitte committen Sie die Änderungen oder benutzen Sie \"stash\".\r\nsh-5.2$ git stash -a\r\nArbeitsverzeichnis und Index-Status WIP on main: ca97f70 pushme Di 23 Apr 2024 23:36:54 CEST gespeichert.\r\nsh-5.2$ git push\r\nTo github.com:sensn/ORemote.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31mFehler: Fehler beim Versenden einiger Referenzen nach 'github.com:sensn/ORemote.git'\r\n\u001b[33mHinweis: Aktualisierungen wurden zurückgewiesen, weil die Spitze Ihres aktuellen\r\nHinweis: Branches hinter seinem externen Gegenstück zurückgefallen ist. Wenn Sie\r\nHinweis: die externen Änderungen integrieren wollen, verwenden Sie 'git pull' bevor\r\nHinweis: Sie erneut push ausführen.\r\nHinweis: Siehe auch den Abschnitt 'Note about fast-forwards' in 'git push --help' für\r\nHinweis: weitere Informationen.\r\n\u001b[0msh-5.2$ git pull\r\n\u001b[33mHinweis: Abweichende Branches können nicht vorgespult werden, benutzen Sie stattdessen:\r\nHinweis: \r\nHinweis: \u001b[7Cgit merge --no-ff\r\nHinweis: \r\nHinweis: oder:\r\nHinweis: \r\nHinweis: \u001b[7Cgit rebase\r\nHinweis: \r\nHinweis: Disable this message with \"git config advice.diverging false\"\r\n\u001b[0mSchwerwiegend: Vorspulen nicht möglich, breche ab.\r\nsh-5.2$ git rebase\r\nFehler: Rebase nicht möglich: Sie haben Änderungen, die nicht zum Commit vorgemerkt sind.\r\nFehler: Bitte committen Sie die Änderungen oder benutzen Sie \"stash\".\r\nsh-5.2$ git commit -a -m \"h\"\r\n[main 28916bf] h\r\n 3 files changed, 24 insertions(+), 14 deletions(-)\r\n delete mode 100644 .obsidian/icons/remix-icons/BookReadFill.svg\r\nsh-5.2$ git rebase\r\nFehler: Rebase nicht möglich: Sie haben Änderungen, die nicht zum Commit vorgemerkt sind.\r\nFehler: Bitte committen Sie die Änderungen oder benutzen Sie \"stash\".\r\nsh-5.2$ git pull\r\n\u001b[33mHinweis: Abweichende Branches können nicht vorgespult werden, benutzen Sie stattdessen:\r\nHinweis: \r\nHinweis: \u001b[7Cgit merge --no-ff\r\nHinweis: \r\nHinweis: oder:\r\nHinweis: \r\nHinweis: \u001b[7Cgit rebase\r\nHinweis: \r\nHinweis: Disable this message with \"git config advice.diverging false\"\r\n\u001b[0mSchwerwiegend: Vorspulen nicht möglich, breche ab.\r\nsh-5.2$ git merge --no-ff\r\nHinweis: Warte auf das Schließen der Datei durch Ihren Editor... Fehler: cannot run vi: Datei oder Verzeichnis nicht gefunden\r\nFehler: unable to start editor 'vi'\r\nMerge wurde nicht committet; benutzen Sie 'git commit', um den Merge abzuschließen.\r\nsh-5.2$ git pull --ff-only\r\nFehler: Sie haben Ihren Merge nicht abgeschlossen (MERGE_HEAD existiert).\r\n\u001b[33mHinweis: Bitte committen Sie Ihre Änderungen, bevor Sie mergen.\r\n\u001b[0mSchwerwiegend: Beende wegen nicht abgeschlossenem Merge.\r\nsh-5.2$ git commit -m \"w\"\r\n[main 2d535e2] w\r\nsh-5.2$ git pull\r\nBereits aktuell.\r\nsh-5.2$ gi",
-                        "rows": 12
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "e85029bb673a9c6e",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/loko/Dokumente/MyVaults/RVAULT/ORemote",
-                      "focus": false,
-                      "profile": {
-                        "name": "",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {},
-                        "type": "developerConsole"
-                      },
-                      "serial": {
-                        "columns": 108,
-                        "data": "\u001b[37mPlugin Mononote v1.1.1 initialized\r\n\u001b[33mUnable to fetch Obsidian stylesheet. [Error: [obsidian-extra]: Obsidian 1.5.12 has not been tested with this function]\r\n\u001b[37mOmnisearch - 16 files total\r\nOmnisearch - Cache is enabled\r\nloaded icon pack remix-icons (2860)\r\n\u001b[31mUncaught TypeError: Cannot read properties of null (reading 'path') { isTrusted: \u001b[36m[Getter]\u001b[31m }\u001b[1B\u001b[91D\u001b[0m",
-                        "rows": 12
-                      }
-                    }
-                  },
-                  "pinned": true
-                }
-              }
-            ]
+              "pinned": true
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +51,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -184,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "musicabc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "musicabc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,14 +126,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "musicabc.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -245,15 +153,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "36ec591f4cbf47e7",
+  "active": "8cf592d811bb69f3",
   "lastOpenFiles": [
-    "test/pullme.md",
-    "test/pushme.md",
-    "musicabc1.md",
     "Leaflet.md",
+    "musicabc.md",
+    "test/pullme.md",
+    "MusicAbc/MusicAbc/musicabc1.md",
+    "MusicAbc/MusicAbc/main.js.md",
+    "MusicAbc/MusicAbc",
+    "MusicAbc",
+    "test/pushme.md",
+    "Note.md",
+    "test/hello.md",
+    "main.js",
     "test/Vi_shortcuts.md",
     "README.md",
-    "test/hello.md",
     "test/new t810.md",
     "ReadItLater Inbox",
     "docs/index.md",
