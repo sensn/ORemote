@@ -87,8 +87,7 @@ var SYNTH_INIT_OPTIONS = {
     // These could be distributed locally with the plugin, but fair warning, they're large (GBs for all notes, I think)
     // soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/abcjs/', // bright, crisp
     soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/', // loud, deeper
-       //soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/', // muted, more mids?
-       //soundFontUrl: 'https://gleitz.github.io/midi-js-soundfonts/FatBoy/',
+    // soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/MusyngKite/', // muted, more mids?
 };
 
 var version = '6.2.2';
@@ -129,12 +128,11 @@ var TimingCallbacks = function(target, params) {
 		self.justUnpaused = false;
 		self.newSeekPercent = 0;
 		self.lastTimestamp = 0;
-                self.mystepcounter=0;
+
 		if (self.noteTimings.length === 0)
 			return;
 		// noteTimings contains an array of events sorted by time. Events that happen at the same time are in the same element of the array.
 		self.millisecondsPerBeat = 1000 / (self.qpm / 60) / self.beatSubdivisions;
-                self.millisecondsPerBeat1 = self.millisecondsPerBeat;
 		self.lastMoment = self.noteTimings[self.noteTimings.length-1].milliseconds;
 		self.totalBeats = Math.round(self.lastMoment / self.millisecondsPerBeat);
 	};
@@ -154,10 +152,8 @@ var TimingCallbacks = function(target, params) {
 		if (!self.isPaused && self.isRunning) {
 			self.currentTime = timestamp - self.startTime;
 			self.currentTime += 16; // Add a little slop because this function isn't called exactly.
-			
-			while (self.noteTimings.length > self.currentEvent && self.noteTimings[self.currentEvent].milliseconds*0.33 < self.currentTime) {
+			while (self.noteTimings.length > self.currentEvent && self.noteTimings[self.currentEvent].milliseconds < self.currentTime) {
 				if (self.eventCallback && self.noteTimings[self.currentEvent].type === 'event') {
-	console.log ('event running ${self.mystepcounter}`); 
 					var thisStartTime = self.startTime; // the event callback can call seek and change the position from beneath us.
 					self.eventCallback(self.noteTimings[self.currentEvent]);
 					if (thisStartTime !== self.startTime) {
@@ -175,26 +171,16 @@ var TimingCallbacks = function(target, params) {
 				requestAnimationFrame(self.doTiming);
 				if (self.currentBeat * self.millisecondsPerBeat < self.currentTime) {
 					var ret = self.doBeatCallback(timestamp);
-					if (ret !== null){
+					if (ret !== null)
 						self.currentTime = ret;
-                                                
-							}
-
 				}
 			} else if (self.currentBeat <= self.totalBeats) {
 				// Because of timing issues (for instance, if the browser tab isn't active), the beat callbacks might not have happened when they are supposed to. To keep the client programs from having to deal with that, this will keep calling the loop until all of them have been sent.
 				if (self.beatCallback) {
 					var ret2 = self.doBeatCallback(timestamp);
-					if (ret2 !== null){
-							self.currentTime = ret2;
- 						   //self.mystepcounter++;
-                                               
-                                                
-							}
-
-						
+					if (ret2 !== null)
+						self.currentTime = ret2;
 					requestAnimationFrame(self.doTiming);
-				console.log (`Summe ${self.mystepcounter}`); 
 				}
 			}
 
@@ -229,7 +215,7 @@ var TimingCallbacks = function(target, params) {
 		});
 	};
 
-	self.doBeatCallback =  function(timestamp) {
+	self.doBeatCallback = function(timestamp) {
 		if (self.beatCallback) {
 			var next = self.currentEvent;
 			while (next < self.noteTimings.length && self.noteTimings[next].left === null)
@@ -297,18 +283,6 @@ var TimingCallbacks = function(target, params) {
 				return timestamp - self.startTime;
 			} else
 				self.currentBeat++;
-				self.mystepcounter++;
-                                               
-                                                    if ((self.mystepcounter%2)== 0) {
-							self.startTime = self.startTime+self.millisecondsPerBeat1;
-                                                  	console.log ("even", self.mystepcounter);
-self.currentEvent++
-							}
-  						 if ((self.mystepcounter%2)== 1) {
-							self.startTime = self.startTime + self.millisecondsPerBeat*0.33;
-                                                  	console.log ("ooodd", self.mystepcounter);
-                                                         //await new Promise(r => setTimeout(r, 2000));
-							}
 		}
 		return null;
 	};
@@ -375,7 +349,7 @@ self.currentEvent++
 		self.pause();
 		self.reset();
 	};
-	self.setProgress =  function(position, units) {
+	self.setProgress = function(position, units) {
 		// the effect of this function is to move startTime so that the callbacks happen correctly for the new seek.
 		var percent;
 		switch (units) {
@@ -410,11 +384,7 @@ self.currentEvent++
 		self.currentEvent;
 		self.currentEvent = 0;
 		while (self.noteTimings.length > self.currentEvent && self.noteTimings[self.currentEvent].milliseconds < self.currentTime) {
-			
-
-				self.currentEvent++;
-  						 
-
+			self.currentEvent++;
 		}
 
 		if (self.lineEndCallback) {
@@ -425,25 +395,8 @@ self.currentEvent++
 		}
 
 		var oldBeat = self.currentBeat;
-
- 						if ((self.mystepcounter%2)== 0) {
-							self.currentBeat = Math.floor(self.currentTime / self.millisecondsPerBeat);
-							self.millisecondsPerBeat = self.millisecondsPerBeat1;
-                                                       // self.noteTimings[self.currentEvent].milliseconds =
-                                                  	console.log ("even", self.mystepcounter);
-							}
-  						 if ((self.mystepcounter%2)== 1) {
-							self.currentBeat = Math.floor(self.currentTime / (self.millisecondsPerBeat+(self.millisecondsPerBeat*0.33)));
-							self.millisecondsPerBeat = self.millisecondsPerBeat + self.millisecondsPerBeat*0.33;
-                                                  	console.log ("odd", self.mystepcounter);
-                                                         //await new Promise(r => setTimeout(r, 2000));
-							}
-		//self.currentBeat = Math.floor(self.currentTime / self.millisecondsPerBeat);
-		
-
-
-
-if (self.beatCallback && oldBeat !== self.currentBeat) // If the movement caused the beat to change, then immediately report it to the client.
+		self.currentBeat = Math.floor(self.currentTime / self.millisecondsPerBeat);
+		if (self.beatCallback && oldBeat !== self.currentBeat) // If the movement caused the beat to change, then immediately report it to the client.
 			self.doBeatCallback(self.startTime+self.currentTime);
 
 		if (self.eventCallback && self.currentEvent >= 0 && self.noteTimings[self.currentEvent].type === 'event')
