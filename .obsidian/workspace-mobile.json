@@ -44,8 +44,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "80cec9710cd3fb9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/webtemp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +124,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "test/hello.md",
+            "file": "Untitled/webtemp.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -128,7 +141,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "test/hello.md",
+            "file": "Untitled/webtemp.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,7 +153,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "test/hello.md"
+            "file": "Untitled/webtemp.md"
           }
         }
       }
@@ -161,16 +174,18 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "0c0dda827c2a0ed5",
+  "active": "80cec9710cd3fb9a",
   "lastOpenFiles": [
-    "musicabc.md",
+    "test/Vi_shortcuts.md",
+    "Untitled/webtemp.md",
     "test/hello.md",
+    "Untitled",
+    "musicabc.md",
     "Leaflet.md",
     "musicabc1.md",
     "test/pullme.md",
     "README.md",
     "test/pushme.md",
-    "test/Vi_shortcuts.md",
     "create a link.md",
     "ImageFile.jpg",
     "Welcome.md",
